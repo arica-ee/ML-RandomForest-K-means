@@ -4,7 +4,7 @@ library(MASS)
 library(tidyverse)
 
 # 載入資料、切訓練集測試集
-setwd("/Users/sandyyin/Desktop/RRRRRRR/hwwww/hw3")
+setwd("xxxxx")
 data <- read.csv("airline_survey.csv")
 data <- na.omit(data)
 new_data <- data %>% 
@@ -41,7 +41,7 @@ accuracy <- (290+195)/(290+195+5+10)
 accuracy
 
 ### Kmeans ###
-setwd("/Users/sandyyin/Desktop/RRRRRRR/hwwww/hw3")
+setwd("xxxxx")
 data <- read.csv("airline_survey.csv")
 library(factoextra)
 
